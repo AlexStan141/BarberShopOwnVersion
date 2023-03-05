@@ -1,0 +1,65 @@
+/* Global Styles-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding-left: 160px;
+    padding-right: 215px;
+    width: 1600px;
+
+}
+
+/*Header Styles-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.vertical-social-links-container {
+    height: 680px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-container {
+    width: 1070px;
+    height: 680px;
+    background-color: green;
+}
+
+.logo {
+    margin-top: 32px;
+    margin-left: 55px;
+    margin-right: 31px;
+}
+
+.left-link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.2em;
+    color: #303030;
+    transform: rotate(-90deg);
+    text-decoration: none;
+}
+
+.left-social-links {
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+.navigation-container {
+    background-image: url("../images/image1.jpg");
+    background-size: cover;
+}
