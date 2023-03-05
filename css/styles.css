@@ -5,13 +5,18 @@
 }
 
 body {
-    padding-left: 160px;
-    padding-right: 215px;
+    margin: auto;
     width: 1600px;
 
 }
 
 /*Header Styles-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.logo {
+    margin-top: 32px;
+    margin-left: 55px;
+    margin-right: 31px;
+}
 
 .header-container {
     display: flex;
@@ -25,16 +30,14 @@ body {
     flex-direction: column;
 }
 
-.navigation-container {
-    width: 1070px;
-    height: 680px;
-    background-color: green;
-}
-
-.logo {
-    margin-top: 32px;
-    margin-left: 55px;
-    margin-right: 31px;
+.left-social-links {
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin-bottom: 40px;
 }
 
 .left-link {
@@ -49,17 +52,88 @@ body {
     text-decoration: none;
 }
 
-.left-social-links {
+.left-link:hover {
+    color: #FF6C00;
+}
+
+.base-container {
+    width: 1070px;
+    height: 680px;
+    background-color: green;
+    background-image: url("../images/image1.jpg");
+    background-size: cover;
+}
+
+.top-links {
     display: flex;
-    gap: 100px;
-    flex-direction: column;
-    align-items: center;
-    flex-grow: 1;
-    justify-content: flex-end;
-    margin-bottom: 40px;
+    justify-content: space-between;
+    margin-right: 20px;
 }
 
 .navigation-container {
-    background-image: url("../images/image1.jpg");
-    background-size: cover;
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+    margin-top: 52px;
+}
+
+.navigation-link {
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navigation-link:hover {
+    color: #FF6C00;
+}
+
+.contacts-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.contact-link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    color: #FF6C00;
+}
+
+.online-booking-button {
+    padding: 12px 20px;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0);
+    align-self: flex-start;
+}
+
+.online-booking-button:hover {
+    background-color: #FF6C00;
 }
